@@ -1,0 +1,1093 @@
+{
+    "IWADs": {
+        "auto_update": true,
+        "default_iwad": "",
+        "directory": "IWADs",
+        "search_subdirs": false
+    },
+    "app_style": null,
+    "ask_for_sandbox_permissions": true,
+    "audio_options": {
+        "no_music": false,
+        "no_sfx": false,
+        "no_sound": false
+    },
+    "check_for_updates": true,
+    "close_on_launch": false,
+    "close_output_on_success": false,
+    "color_scheme": "dark",
+    "engines": {
+        "default_engine": "",
+        "engine_list": [
+            {
+                "config_dir": "Sourceports/UZDoom/Configs",
+                "data_dir": "Sourceports/UZDoom/Save",
+                "family": "ZDoom",
+                "name": "UZDoom",
+                "path": "Sourceports/UZDoom/uzdoom.exe"
+            }
+        ]
+    },
+    "gameplay_options": {
+        "allow_cheats": false,
+        "dmflags1": 0,
+        "dmflags2": 0,
+        "dmflags3": 0,
+        "fast_monsters": false,
+        "monsters_respawn": false,
+        "no_monsters": false,
+        "pistol_start": false,
+        "skill_idx": 1,
+        "skill_num": 1
+    },
+    "geometry": {
+        "height": 1009,
+        "width": 1920,
+        "x": 0,
+        "y": 23
+    },
+    "global_options": {
+        "additional_args": "",
+        "cmd_prefix": "",
+        "env_vars": {
+        },
+        "use_preset_name_as_config_dir": false,
+        "use_preset_name_as_demo_dir": false,
+        "use_preset_name_as_save_dir": false,
+        "use_preset_name_as_screenshot_dir": false
+    },
+    "hide_map_label": false,
+    "launch_options": {
+        "demo_file_record": "",
+        "demo_file_replay": "",
+        "demo_file_resume_from": "",
+        "demo_file_resume_to": "",
+        "launch_mode": 0,
+        "map_name": "",
+        "map_name_demo": "",
+        "save_file": ""
+    },
+    "maps": {
+        "directory": "IWADs/Megawads",
+        "show_icons": false
+    },
+    "mods": {
+        "last_used_dir": "Mods/Embers of Armageddon",
+        "show_icons": true
+    },
+    "multiplayer_options": {
+        "frag_limit": 0,
+        "game_mode": 0,
+        "host_name": "",
+        "is_multiplayer": false,
+        "mult_role": 0,
+        "net_mode": 0,
+        "player_color": null,
+        "player_count": 2,
+        "player_name": "",
+        "port": 5029,
+        "team_damage": 0,
+        "time_limit": 0
+    },
+    "options_storage": {
+        "audio_opts": 1,
+        "compat_opts": 2,
+        "gameplay_opts": 1,
+        "launch_opts": 1,
+        "video_opts": 1
+    },
+    "presets": [
+        {
+            "name": "Retail",
+            "separator": true
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatmode 2 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                }
+            ],
+            "name": "The Ultimate DOOM",
+            "selected_IWAD": "IWADs/DOOM.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                }
+            ],
+            "name": "DOOM II: Hell on Earth",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/plutmidi.wad"
+                }
+            ],
+            "name": "The Plutonia Experiment",
+            "selected_IWAD": "IWADs/PLUTONIA.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                }
+            ],
+            "name": "TNT Evilution",
+            "selected_IWAD": "IWADs/TNT.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/nerve.wad"
+                }
+            ],
+            "name": "No Rest For The Living",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/id1.wad"
+                }
+            ],
+            "name": "Legacy of Rust",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Heretic: Shadow of the Serpent Riders",
+            "selected_IWAD": "IWADs/HERETIC.wad",
+            "selected_config": "uzdoom-Raven.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Hexen: Beyond Heretic",
+            "selected_IWAD": "IWADs/HEXEN.wad",
+            "selected_config": "uzdoom-Raven.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/HEXDD.wad"
+                }
+            ],
+            "name": "Hexen: Deathkings of the Dark Citadel",
+            "selected_IWAD": "IWADs/HEXEN.wad",
+            "selected_config": "uzdoom-Raven.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "STRIFE",
+            "selected_IWAD": "IWADs/STRIFE1.wad",
+            "selected_config": "uzdoom-Strife.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "name": "Megawads/Map Packs",
+            "separator": true
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Ancient Aliens",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Ancient Aliens/aaliens_v1_2.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "AUGER;ZENITH",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/AUGER ZENITH/DBP37_AUGZEN.wad",
+                "IWADs/Megawads/AUGER ZENITH/DBP37_AlternateBlaster.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Back to Saturn X E1: Get Out Of My Stations",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Back to Saturn X/btsx_e1a.wad",
+                "IWADs/Megawads/Back to Saturn X/btsx_e1b.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Back to Saturn X E2: Tower in the Fountain of Sparks",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Back to Saturn X/btsx_e2a.wad",
+                "IWADs/Megawads/Back to Saturn X/btsx_e2b.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Eviternity",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Eviternity/Eviternity.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Eviternity II",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Eviternity/Eviternity II.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "SCYTHE",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Scythe/SCYTHE.WAD"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Stardate 20X6",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Stardate/stardate20x6.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Stardate 20X7",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Stardate/sd20x7.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/SIGIL_v1_21.wad"
+                }
+            ],
+            "name": "SIGIL",
+            "selected_IWAD": "IWADs/DOOM.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/GZSprFix.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/SIGIL_II_V1_0.WAD"
+                }
+            ],
+            "name": "SIGIL II",
+            "selected_IWAD": "IWADs/DOOM.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Sunlust",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Sunlust/sunlust.wad"
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 1",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Valiant",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+                "IWADs/Megawads/Valiant/Valiant.wad"
+            ]
+        },
+        {
+            "name": "Mods",
+            "separator": true
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/brutalv22test4.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/HXRTCHUD-Plat_v060-ZDoom.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/IDKFAv2.wad"
+                }
+            ],
+            "name": "Brutal Doom v22 - The Ultimate DOOM",
+            "selected_IWAD": "IWADs/DOOM.wad",
+            "selected_config": "uzdoom-BrutalDoom.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/brutalv22test4.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/HXRTCHUD-Plat_v060-ZDoom.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/DOOM2HSONGS.WAD"
+                }
+            ],
+            "name": "Brutal Doom v22 - DOOM II: Hell on Earth",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-BrutalDoom.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/brutalv22test4.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/HXRTCHUD-Plat_v060-ZDoom.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/EdayTest001.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/EdayMapInfoPatchV2.wad"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Brutal Doom/EdayMusic001.wad"
+                }
+            ],
+            "name": "Brutal Doom v22 - Extermination Day",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-BrutalDoom.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA Code.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA Assets.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA_Keys.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/STR_EOA_Combat_Rating.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/STR_EOA_D4_Monsters_v1_6_eoa_1.9_fix.pk3"
+                }
+            ],
+            "name": "Embers of Armageddon - The Ultimate DOOM",
+            "selected_IWAD": "IWADs/DOOM.wad",
+            "selected_config": "uzdoom-Embers.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA Code.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA Assets.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/EOA_Keys.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/STR_EOA_Combat_Rating.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/Embers of Armageddon/STR_EOA_D4_Monsters_v1_6_eoa_1.9_fix.pk3"
+                }
+            ],
+            "name": "Embers of Armageddon - DOOM II: Hell on Earth",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Embers.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Live Through Doom/LiTDOOM - 0.595c.pk3"
+                },
+                {
+                    "checked": true,
+                    "path": "Mods/$GLOBAL/ADAMP2.pk3"
+                }
+            ],
+            "name": "Live Through Doom",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-LiTDoom.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+                {
+                    "checked": true,
+                    "path": "Mods/Siren/Siren 0.91 COMPAT.pk3"
+                }
+            ],
+            "name": "SIREN",
+            "selected_IWAD": "IWADs/DOOM2.wad",
+            "selected_config": "uzdoom-Siren.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "name": "Open Source",
+            "separator": true
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Freedoom: Phase 1",
+            "selected_IWAD": "IWADs/freedoom1.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        },
+        {
+            "additional_args": "+dmflags 4259840 +compatflags -1172751401 +compatflags2 49673 +vid_rendermode 0",
+            "alternative_paths": {
+                "config_dir": "",
+                "demo_dir": "",
+                "save_dir": "",
+                "screenshot_dir": ""
+            },
+            "compatibility_options": {
+                "compat_mode": -1,
+                "compatflags1": 0,
+                "compatflags2": 0
+            },
+            "env_vars": {
+            },
+            "load_maps_after_mods": false,
+            "mods": [
+            ],
+            "name": "Freedoom: Phase 2",
+            "selected_IWAD": "IWADs/freedoom2.wad",
+            "selected_config": "uzdoom-Vanilla.ini",
+            "selected_engine": "Sourceports/UZDoom/uzdoom.exe",
+            "selected_mappacks": [
+            ]
+        }
+    ],
+    "selected_preset": "Ancient Aliens",
+    "show_engine_output": false,
+    "use_absolute_paths": false,
+    "version": "1.9.1",
+    "video_options": {
+        "monitor_idx": 0,
+        "resolution_x": 0,
+        "resolution_y": 0,
+        "show_fps": false
+    }
+}

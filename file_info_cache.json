@@ -1,0 +1,18 @@
+{
+    "exe_info": {
+        "G:/SteamLibrary/steamapps/common/Ultimate Doom/DoomRunner/Sourceports/DSDA-Doom/dsda-doom.exe": {
+            "app_name": "",
+            "description": "",
+            "last_modified": 1744153995,
+            "status": "InfoNotPresent",
+            "version": "0.0.0.0"
+        },
+        "G:/SteamLibrary/steamapps/common/Ultimate Doom/DoomRunner/Sourceports/UZDoom/uzdoom.exe": {
+            "app_name": "UZDoom",
+            "description": "UZDoom 4.14.3",
+            "last_modified": 1764372173,
+            "status": "Success",
+            "version": "4.14.3.0"
+        }
+    }
+}
