@@ -25,6 +25,13 @@
                 "family": "ZDoom",
                 "name": "UZDoom",
                 "path": "Sourceports/UZDoom/uzdoom.exe"
+            },
+            {
+                "config_dir": "Sourceports/DSDA-Doom",
+                "data_dir": "Sourceports/DSDA-Doom/dsda_doom_data",
+                "family": "PrBoom",
+                "name": "DSDA-Doom",
+                "path": "Sourceports/DSDA-Doom/dsda-doom.exe"
             }
         ]
     },
@@ -72,7 +79,7 @@
         "show_icons": false
     },
     "mods": {
-        "last_used_dir": "Mods/Embers of Armageddon",
+        "last_used_dir": "IWADs/Extensions",
         "show_icons": true
     },
     "multiplayer_options": {
@@ -383,6 +390,10 @@
             },
             "load_maps_after_mods": false,
             "mods": [
+                {
+                    "checked": true,
+                    "path": "IWADs/Extensions/VOICES.wad"
+                }
             ],
             "name": "STRIFE",
             "selected_IWAD": "IWADs/STRIFE1.wad",
